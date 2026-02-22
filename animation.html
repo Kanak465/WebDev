@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 500vh;
+            width:500vw;
+            background-color: rgb(233, 229, 29);
+        }
+        div:hover{
+            animation-name: move;
+            animation-duration: 3s;
+            animation-iteration-count: 2;
+        }
+        @keyframes move {
+            0%{
+                height:400px;
+                width:400px;
+                background-color: #df8f15;
+
+            }
+            25%{
+                height:500px;
+                width:500px;
+                background-color: rgb(233, 229, 29);
+            }
+            50%{
+                height:400px;
+                width:400px;
+                background-color: #df4415;
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>
