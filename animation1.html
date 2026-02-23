@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div{
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            margin: 0px auto;
+            background:linear-gradient(red,pink,beige); 
+            animation-name: move;
+            animation-iteration-count: infinite;
+            animation-duration: 900ms;
+            animation-direction:alternate;
+            animation-timing-function: ease-in;
+            border-color: red;
+        }
+        
+        @keyframes move {
+            0% {
+                transform: translateX(0px);
+            }
+            100% {
+                transform: translateY(70vh) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div></div>
+    
+</body>
+</html>
